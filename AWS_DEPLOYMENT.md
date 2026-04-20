@@ -165,6 +165,7 @@ nano .env.local
 Set real values:
 
 ```env
+SITE_URL=https://yourdomain.com
 ADMIN_PASSWORD=use-a-long-strong-password
 ADMIN_SESSION_SECRET=generate-a-long-random-secret
 ```

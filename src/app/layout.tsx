@@ -18,6 +18,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.SITE_URL || 'http://localhost:3000'),
   title: {
     default: 'Second Chance Tails - Dog Shelter in Hyderabad',
     template: '%s | Second Chance Tails',
